@@ -4,11 +4,11 @@
       "nav": [
         {
           "label": "Join us",
-          "link": "http://forms.gle/3fzhfJkq8kbF7uf89"
+          "link": "https://docs.google.com/forms/d/e/1FAIpQLSel77NNOJ-dJtfEf5AfzeH4KVN-1re_cpLDdiii2o-o-wmVDw/viewform"
         },
         {
           "label": "Donate",
-          "link": "https://giving.mit.edu/search/node/2741127"
+          "link": ""
         }
       ]
     },
@@ -16,11 +16,7 @@
       "nav": [
         {
           "label": "Related research",
-          "link": "https://splitlearning.github.io/"
-        },
-        {
-          "label": "Private Kit",
-          "link": "http://privatekit.mit.edu/"
+          "link": ""
         }
       ]
     },
@@ -28,11 +24,11 @@
       "nav": [
         {
           "label": "Signup for updates",
-          "link": "http://forms.gle/3fzhfJkq8kbF7uf89"
+          "link": "https://docs.google.com/forms/d/e/1FAIpQLSel77NNOJ-dJtfEf5AfzeH4KVN-1re_cpLDdiii2o-o-wmVDw/viewform"
         },
         {
           "label": "Contact us",
-          "link": "mailto:privatekit@media.mit.edu"
+          "link": "mailto:covidtracer2020@gmail.com"
         }
       ]
     }
