@@ -1,12 +1,7 @@
 [
   {
-    "name": "OpenMined",
-    "desc": "is providing free open-source support to protect their user's data privacy.",
-    "link": "https://www.openmined.org/"
-  },
-  {
-    "name": "Covid ActNow",
-    "desc": "is a visualization of how interventions affect the impact of Corona Virus across each US State and County.",
-    "link": "https://covidactnow.org/"
+    "name": "SokoniOnline",
+    "desc": "is researching on farm product mobility during covid19.",
+    "link": "sokoni.online"
   }
 ]
