@@ -1,0 +1,39 @@
+.section-title {
+  position: relative;
+
+  @include mq($lg) {
+    margin-right: $grid-gutter * 2;
+  }
+}
+
+.intro-content {
+  margin-bottom: $sp-lg;
+
+  @include mq($md) {
+    margin-bottom: $sp-xl;
+    width: columns(5, 6);
+  }
+}
+
+.intro-section {
+  &:not(:last-child) {
+    margin-bottom: $sp-lg;
+
+    @include mq($md) {
+      margin-bottom: $sp-xl;
+    }
+  }
+}
+
+.section-art {
+  img {
+    @include size(100%, auto);
+  }
+
+  figcaption {
+    @include margin($sp-base x);
+    @include padding(x $sp-base);
+    border-left: 1px solid $color-base;
+    font-size: $fs-xs;
+  }
+}

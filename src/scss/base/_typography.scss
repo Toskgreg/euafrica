@@ -1,0 +1,48 @@
+html {
+  background-color: $color-bg;
+}
+
+body {
+  @include body-text;
+  color: $color-base;
+  font-family: $sans;
+  font-kerning: normal;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $fw-bold;
+}
+
+h1 {
+  @include h1;
+}
+
+h2 {
+  @include h2;
+}
+
+h3 {
+  @include h3;
+}
+
+h4 {
+  @include h4;
+}
+
+h5 {
+  @include h5;
+}
+
+h6 {
+  @include h6;
+}
+
+em {
+  font-style: italic;
+}

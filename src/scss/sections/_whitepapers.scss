@@ -1,0 +1,19 @@
+.whitepapers-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+
+  @include mq($md) {
+    flex-flow: row wrap;
+  }
+}
+
+.whitepapers-content-block {
+  box-sizing: border-box;
+  margin-bottom: $sp-lg;
+
+  @include mq($md) {
+    padding-right: $grid-gutter;
+    width: columns(1, 2);
+  }
+}

@@ -1,0 +1,56 @@
+.link--button {
+  @include padding($sp-base $sp-sm);
+  align-items: center;
+  background-color: $color-bg;
+  background-image: none;
+  border: 1px solid $color-base;
+  border-radius: $br;
+  display: flex;
+  font-weight: $fw-bold;
+  justify-content: space-between;
+
+  @include on-focus {
+    background-color: $color-spot;
+    border-color: $color-spot;
+    color: $color-bg;
+
+    svg {
+      color: $color-bg;
+    }
+  }
+
+  @include mq($md) {
+    @include padding($sp-sm $sp-lg);
+  }
+
+  svg {
+    color: $color-spot;
+    margin-left: $sp-lg;
+  }
+
+  &-primary {
+    background-color: $color-spot;
+    border-color: transparent;
+    color: $color-bg;
+
+    svg {
+      color: $color-bg;
+    }
+  }
+}
+
+.link--button-icon {
+  @include padding($sp-md $sp-lg);
+  @include paragraph;
+  background-color: $color-base;
+  color: $color-bg;
+  justify-content: flex-start;
+
+  @include mq($lg) {
+    @include padding(x $sp-xl);
+  }
+
+  svg {
+    @include margin(0 $sp-md 0 0);
+  }
+}

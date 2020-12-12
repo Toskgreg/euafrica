@@ -1,0 +1,25 @@
+{% set footer = site.data['footer.json'].footer %}
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-content--block">
+      {% for footerNav in footer %}
+      <div class="footer-content--col">
+        {% include '@templates/partials/footer-nav.html' with {footerNav} %}
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="footer-content--block">
+      <div class="footer-content--attribution">
+        <div class="footer-logo">
+          <p>
+            {% include '@templates/svgs/logo.svg' %}
+          </p>
+        </div>
+        <p>Cambridge MA 02139-4307</p>
+        <p>©{{ "now"|date("Y") }}. Path Checks, Inc.</p>
+      </div>
+    </div>
+  </div>
+</footer>

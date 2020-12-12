@@ -1,0 +1,71 @@
+.page-topper-content {
+  @include site-padding;
+  position: relative;
+}
+
+.topper-art {
+  margin-left: columns(6);
+}
+
+.topper-canvas {
+  pointer-events: none;
+  z-index: 0;
+
+  @include mq(0, $lg) {
+    display: none;
+  }
+
+  @include mq($lg) {
+    @include fixed(x);
+    transform: translate(-50%, -25%);
+  }
+}
+
+.topper-title {
+  @include padding($sp-xl x);
+  position: relative;
+  z-index: 1;
+
+  @include mq($lg) {
+    @include padding($sp-xxl x);
+    max-width: $col-3;
+
+    h2 {
+      margin-right: $grid-gutter;
+    }
+  }
+
+  @include mq($md, $lg) {
+    @include padding($sp-xl x $sp-xxl x);
+  }
+
+  h2 {
+    @include giant;
+    margin-bottom: $sp-lg;
+  }
+}
+
+.topper-section {
+  counter-reset: point;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+
+  @include mq($md) {
+    flex-direction: row;
+  }
+}
+
+.topper-section--col {
+  flex: 1 1 auto;
+  width: 100%;
+
+  @include mq($md) {
+    margin-right: $grid-gutter;
+  }
+}
+
+.topper-feature {
+  margin-bottom: $sp-lg;
+}
